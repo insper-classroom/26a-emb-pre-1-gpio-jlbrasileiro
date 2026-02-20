@@ -15,5 +15,10 @@ void main(void) {
         if (a > 5) {
             b = 1;
         }
+        printf("Valor de a: %d | Valor de b: %d\n", a, b);
+
+        if (a < 10){
+            break;
+        }
     }
 }
