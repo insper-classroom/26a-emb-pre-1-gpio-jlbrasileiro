@@ -54,6 +54,6 @@ int main() {
       }
     }
     
-    sleep_ms(10); // Pausa recomendada para não travar o loop
+    sleep_ms(10);
   }
 }
