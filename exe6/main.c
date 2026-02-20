@@ -55,7 +55,7 @@ int main() {
 
     while (true) {
         int btn = gpio_get(BTN_PIN_G);
-        if (last_btn && !btn) { // Detect falling edge (press)
+        if (last_btn && !btn) { 
             if (++cnt > 9) {
                 cnt = 0;
             }
@@ -63,6 +63,6 @@ int main() {
             printf("cnt: %l\n", cnt);
         }
         last_btn = btn;
-        sleep_ms(10); // Polling interval
+        sleep_ms(10); 
     }
 }
