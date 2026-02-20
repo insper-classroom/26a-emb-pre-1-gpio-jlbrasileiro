@@ -54,6 +54,5 @@ int main() {
       }
     }
     
-    sleep_ms(10);
   }
 }
