@@ -3,7 +3,7 @@
 
 
 void foo(int *ptr_a) {
-    *ptr_a = ptr_a + 1; 
+    *ptr_a = *ptr_a + 1; 
 }
 
 void main(void) {
